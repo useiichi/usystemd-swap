@@ -4,8 +4,8 @@ After=local-fs.target
 
 [Service]
 RemainAfterExit=yes
-ExecStart=/home/core/systemd-swap/zrm.sh start
-ExecStop=/home/core/systemd-swap/zrm.sh  stop
+ExecStart=/home/core/usystemd-swap/zrm.sh start
+ExecStop=/home/core/usystemd-swap/zrm.sh  stop
 
 [Install]
 WantedBy=local-fs.target

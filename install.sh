@@ -1,3 +1,2 @@
 #!/bin/bash
-cd `dirname $0`
-sudo cp -v ./systemd-swap.service /etc/systemd/system/systemd-swap.service
+sudo cp -v ./usystemd-swap.service /etc/systemd/system/usystemd-swap.service
